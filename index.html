@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-reset.css">
     <link rel="stylesheet" href="style.css">
     <title>MemSlider</title>
 </head>
 <body>
+    <div class="container">
+        <div class="slider_wrapper">
+            <div class="slider_items">
+                <div class="slider_item ">
+                    <img src="./assets/img/1.jpg" alt="">
+                </div>
+                <div class="slider_item active">
+                    <img src="./assets/img/3.jpg" alt="">
+                </div>
+                <div class="slider_item">
+                    <img src="./assets/img/4.jpg" alt="">
+                </div>
+                
+                <div id="btn_preview"></div>
+                <div id="btn_next"></div>
+                
+               
+            </div>
+            <div class="info-wrapper">
+                <div class="description-wrapper">
+                    <div class="text">Гайд поГайд по Достоевскому</div>
+                </div>
+                <div class="dots-wrapper">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
