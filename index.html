@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MemSlider</title>
+</head>
+<body>
+    <div id="slider">
+        <input checked="" type="radio" name="slider" id="slide1">
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <input type="radio" name="slider" id="slide5">
+        
+        <div id="slider_wrapper">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                           <img class="slider_img" src="./assets/img/1.jpg"  alt="">
+                        </div>
+                    </div>
+                    <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img  class="slider_img" src="./assets/img/2.jpg"  alt="">
+                        </div>
+                    </div>
+                    <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img class="slider_img" src="./assets/img/3.jpg"  height="300"  alt="">
+                        </div>
+                    </div>
+                    <div class="slide slide_4">
+                        <div  class="slide-content">
+                            <img  class="slider_img" src="./assets/img/4.jpg"    alt="">
+                        </div>
+                    </div>
+                    <div class="slide slide_5">
+                        <div class="slide-content">
+                            <img  class="slider_img" src="./assets/img/5.jpg"    alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+
+        <div id="describe-wrap">
+            <div class="describe-overflow">
+                <div class="describe-inner">
+                   <div class="describe">Гайд по Достоевскому</div> 
+                   <div class="describe">Дворовой форсаж</div> 
+                   <div class="describe">И ускоряешься, чтобы показать какая она быстрая</div> 
+                   <div class="describe">Перекупы...</div> 
+                   <div class="describe">Приоритеты...</div> 
+                </div>
+             </div>
+            <div id="dots">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>  
+    </div>
+</body>
+</html>
